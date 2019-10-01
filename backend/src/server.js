@@ -5,13 +5,6 @@ const routes = require("./routes");
 
 const app = express();
 
-/*mongoose.Promise = global.Promise;
-mongoose.connect(
-  "mongodb+srv://thallysbraz:cavalo-1000@dbaircnc-rbrer.mongodb.net/test?retryWrites=true&w=majority",
-  { useNewUrlParser: true, useUnifiedTopology: true }
-);
-*/
-
 //Mongoose
 mongoose.Promise = global.Promise;
 mongoose
