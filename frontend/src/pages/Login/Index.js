@@ -37,6 +37,7 @@ export default function Login({ history }) {
           placeholder="Seu melhor e-mail"
           value={email}
           onChange={event => setEmail(event.target.value)}
+          required
         />
         <button className="btn" type="submit">
           Entrar
