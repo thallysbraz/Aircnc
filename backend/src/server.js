@@ -23,5 +23,5 @@ app.use(express.json());
 
 app.use(routes);
 
-app.listen(3000);
+app.listen(3001);
 //mongodb+srv://thallysbraz:<password>@dbaircnc-rbrer.mongodb.net/test?retryWrites=true&w=majority
