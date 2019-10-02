@@ -23,5 +23,9 @@ app.use(express.json());
 
 app.use(routes);
 
-app.listen(3001);
+const port = 3001;
+
+app.listen(port, function() {
+  console.log("Running on port " + port);
+});
 //mongodb+srv://thallysbraz:<password>@dbaircnc-rbrer.mongodb.net/test?retryWrites=true&w=majority
